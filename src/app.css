@@ -1,0 +1,21 @@
+@import url("https://api.fontshare.com/v2/css?f[]=general-sans@1,2&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.frame {
+  /* @apply mx-auto px-8 md:px-12 lg:px-16 max-w-7xl; */
+  @apply mx-auto px-4 md:px-12 lg:px-24;
+}
+
+.cframe {
+  @apply mx-auto p-4 md:p-12 lg:py-24;
+}
+
+.v_heading {
+  @apply text-2xl md:text-3xl lg:text-4xl tracking-tighter font-medium;
+}
+
+.ElementsApp input {
+  border: 1px solid black !important;
+}

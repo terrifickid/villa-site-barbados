@@ -1,0 +1,55 @@
+<section>
+  <div>
+    <div class="text-left">
+      <div>
+        <p
+          class="text-2xl font-normal tracking-tight lg:text-3xl text-regent-900 mt-12 lg:mt-0">
+          {item.nickname}
+        </p>
+
+        <div class="grid grid-cols-2 w-full">
+          <div>
+            <p class="mb-1">
+              {formatPrice(item.prices.basePrice, item.prices.currency)} Per
+              Night
+            </p>
+            <p class="text-sm mt-2">
+              {item.address.city}, {item.address.country}<br />
+            </p>
+          </div>
+          <p class="text-right">
+            {item.bedrooms} Beds<br />
+            {item.bathrooms} Bath
+          </p>
+        </div>
+        <div class="py-3">
+          <div class="flex-shrink-0 block">
+            <div class="flex items-center">
+              <div>
+                <img
+                  class="inline-block object-cover rounded-full h-9 w-9"
+                  src="{item.picture.thumbnail}"
+                  alt="The Power of Positive Thinking" />
+              </div>
+              <div class="ml-3">
+                <p class="text-sm text-neutral-900 group-hover:text-blue-500">
+                  Johan Karlsson
+                  <span class="text-neutral-500"> in</span>
+                  on Fri Jul 01
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="mt-10">
+        <a
+          class="inline-flex items-center lg:text-xl justify-center w-full px-6 py-4 text-center text-yellow-900 duration-200 bg-yellow-500 font-medium rounded-full text-base focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 ring-offset-2 hover:bg-yellow-100 md:w-auto"
+          href="/posts/1"
+          title="The Power of Positive Thinking"
+          >Read more</a
+        >
+      </div>
+    </div>
+  </div>
+</section>
