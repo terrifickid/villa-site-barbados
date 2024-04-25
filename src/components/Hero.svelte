@@ -58,7 +58,7 @@
             style="background: rgba(0,0,0,0.65);"
           >
             <div>
-              <p class="v_heading mt-3">Find a place to stay.</p>
+              <p class="v_heading mt-3">Find a place to stay</p>
             </div>
             <div class="grid grid-cols-2 gap-4 mt-10">
               <div>
@@ -89,9 +89,7 @@
                   name="location"
                   class="bg-black text-white mt-2 block w-full rounded-full border-0 py-1.5 pl-3 pr-10 text-gray-900 ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-bound sm:text-sm sm:leading-6"
                 >
-                  {#each data.countries as country}
-                    <option value={country}>{country}</option>
-                  {/each}
+                  <option value="Barbados">Barbados</option>
                 </select>
               </div>
 
